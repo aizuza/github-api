@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <div>
+      <form action="/github/user" method="POST">
+      <label for="nombredeusuario">Usuario de Github:</label> <!--Label le pone un id a su boton de abajo-->
+      <br>
+      <input type="buttom" placeholder="Usuario" id="nombredeusuario" name="username">
+      <br>
+        <input type="submit" value="Consultar">
+      </form>
+      
+    </div>
+  </body>
+</html>
